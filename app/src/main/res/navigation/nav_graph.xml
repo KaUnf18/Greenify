@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/inicioFragment">
+
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.example.greenify.InicioFragment"
+        android:label="Inicio">
+        <action
+            android:id="@+id/action_inicioFragment_to_perfilFragment"
+            app:destination="@id/perfilFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="com.example.greenify.PerfilFragment"
+        android:label="Perfil">
+        <action
+            android:id="@+id/action_perfilFragment_to_inicioFragment"
+            app:destination="@id/inicioFragment" />
+    </fragment>
+</navigation>
+

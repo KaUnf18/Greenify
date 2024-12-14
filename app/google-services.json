@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "216266603923",
+    "project_id": "greenify-2bb7b",
+    "storage_bucket": "greenify-2bb7b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216266603923:android:e083aedabeedc2f3b97c66",
+        "android_client_info": {
+          "package_name": "com.example.greenify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9t46saysFck2fGlRca-y1AFhAeo3Og2o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
